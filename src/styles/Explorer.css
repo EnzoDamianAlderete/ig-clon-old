@@ -1,0 +1,13 @@
+.publicacionElement{
+    max-width: 270px;
+    max-height: 270px;
+}
+.coso{
+    grid-row: 1 / 3;
+}
+.publicacionElement--conteiner{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}

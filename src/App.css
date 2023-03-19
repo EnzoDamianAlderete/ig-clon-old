@@ -1,0 +1,242 @@
+.App {
+  text-align: center;
+}
+*{
+margin: 0;
+padding: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.body--container{
+  display: flex;
+  justify-content: center;
+}
+.header--component{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 56px;
+}
+.borderHeader{
+  border-bottom: 1px solid #d8d7d7;
+}
+.igLogo{
+  width: 120px;
+  height: 40px;
+}
+.icono--header{
+  margin: 0px 0px 0px 24px;
+  text-decoration: none;
+  color: #000;
+}
+
+.buscador{
+  background-color: #EFEFEF;
+  color: #8e8e8e;
+  font-size: 16px;
+  padding: 7px 40px;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+}
+.historias--contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid #d8d7d7;
+  margin-top: 26px;
+  width: 470px;
+  height: 119px;
+  overflow: hidden;
+  position: relative;
+}
+.historia--avatar{
+  padding-left: 1rem;
+  font-size: 12px;
+  margin-right: 50px;
+}
+.historia--avatar :hover,.btn--historia :hover{
+  cursor: pointer;
+}
+.btn--historia{
+  color: rgba(228, 222, 222, 0.898);
+  border: none;
+  background-color: rgba(253, 251, 251, 0);
+}
+.btns--historia__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  padding-left: 10px;
+  position: absolute;
+}
+.icono--avatar{
+  border-radius: 50%;
+  border: 2px solid  rgb(234, 230, 233);
+}
+.span--history{
+  border-radius: 50%;
+  padding: 3px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%);
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  margin-top: -38px;
+}
+
+.usuario--card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0px;
+}
+.contenido--usuario__card{
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+.contenido--usuario__card div{
+  padding-left: 12px;
+}
+.usuario--card img{
+  width: 56px;
+  height: 56px;
+}
+.sugerencias--list .usuario--card img{
+  width: 32px;
+  height: 32px;
+}
+.sugerencias--list .usuario--card a:last-child, .usuario--card a:last-child{
+  color: #0095F6;
+  font-size: 12px;
+}
+.usuario--card a,.sugerencias--legend a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.usuario--card p{
+ color: #8e8e8e;
+ font-size: 12px;
+}
+
+.sugerencia--usuarios{
+  margin-top: 26px;
+  width: 319px;
+}
+.sugerencias--legend{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #8e8e8e;
+  padding: 20px 0px;
+}
+.sugerencias--footer{
+  padding: 20px 20px;
+  display: block;
+  color: #C7C7C7;
+  font-size: 12px;
+}
+.sugerencias--footer a{
+  text-decoration: none;
+  color: #C7C7C7;
+}
+.sugerencias--footer legend{
+  padding: 20px 0px;
+}
+.Card--publicacion{
+  border-radius: 0.5rem;
+  border: 1px solid #d8d7d7;
+  margin-top: 26px;
+  margin-bottom: 26px;/*PUEDE CAMBIAR LUEGO*/
+  width: 470px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.img--publi{
+  width: 470px;
+  height: 470px;
+}
+.iconos--publicacion{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconos--publicacion svg{
+  width: 24px;
+  height: 24px;
+}
+.iconos--left{
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.iconos--publicacion div :hover{
+  cursor: pointer;
+}
+.agregar--comentario{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 12px;
+  border-top: 1px solid #EFEFEF;
+}
+.agregar--comentario svg{
+  width: 24px;
+  height: 24px;
+  padding: 5px 12px 8px 0px;
+}
+.agregar--comentario input{
+  width: 355px;
+  height: 18px;
+  border: none;
+  outline: none;
+}
+.agregar--comentario button{
+  border: none;
+  background-color: #fcfcfc;
+  color: #0095F6;
+  font-weight: bold;
+}
+
+.Card--publicacion legend{
+  padding: 0px 12px;
+  color: #8e8e8e;
+  font-size: 10px;
+}
+.comentarios--publi{
+  padding: 0px 12px;
+  color: #8e8e8e;
+  text-decoration: none;
+}
+.likes--publicacion,.descripcion--publicacion{
+  padding: 0px 12px;
+}
+
+.btn-principal-like,.btn-handleSave{
+  width: 24px;
+  height: 24px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.like-icon,.save-icon{
+  position: absolute;
+}
+
+.liked{
+  color: rgb(206, 44, 44);
+}
+

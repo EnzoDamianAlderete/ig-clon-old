@@ -1,0 +1,82 @@
+.headerPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+.headerPerfil--title{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.headerPerfil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.headerPerfil button{
+    border-radius: 5px;
+    border: 1px solid  rgba(228, 222, 222, 0.898);
+    background-color: transparent;
+    padding:5px 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.seguidoresPerfil{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+.conteiner{
+    margin: auto;
+    width: 920px;
+
+}
+.destacadasContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    text-align: center;
+    padding: 4rem 0;
+}
+.icono--avatar__destacada{
+    width: 77px;
+    border-radius: 50%;
+}
+.span--history__destacada{
+  border-radius: 50%;
+  border: 2px solid  rgba(228, 222, 222, 0.898);
+  padding: 2px;
+  position: relative;
+  height: 79px;
+  width: 79px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccionesPublicaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid  rgba(228, 222, 222, 0.898);
+    color:#8e8e8e;
+    font-size: 12px;
+}
+.seccionesPublicaciones p{
+    padding: 1rem 0;
+}
+
+.publicacionPerfil img{
+    max-width: 293px;
+    max-height: 293px;
+}
+
+.publicacionesPerfil{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
